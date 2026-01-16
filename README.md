@@ -84,7 +84,7 @@ npm run dev
 redis-server  # Or docker run -p 6379:6379 redis:alpine
 ```
 
-## 🏃‍♂️ Running the Project
+## Running the Project
 
 Three terminals required:
 
