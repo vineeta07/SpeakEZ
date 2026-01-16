@@ -1,4 +1,4 @@
-# SpeakEZ — Real-Time Speech Copilot
+# SpeakEZ- Real-Time Speech Copilot
 
 SpeakEZ is a privacy-first, real-time speech intelligence system that aligns *what you say* with *how you say it* during live conversations. The platform combines acoustic analysis (delivery metrics), semantic understanding (content intent), and scenario-adaptive agents for instant confidence signals and cognitive cues. Built with React + TypeScript frontend, FastAPI backend with PostgreSQL, on-demand ML APIs, and autonomous agents for persona-based feedback. Emphasis on low-latency WebSocket streaming, privacy-preserving edge processing, and explainable AI insights.
 
