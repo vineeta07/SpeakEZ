@@ -2,7 +2,7 @@
 
 SpeakEZ is a privacy-first, real-time speech intelligence system that aligns *what you say* with *how you say it* during live conversations. The platform combines acoustic analysis (delivery metrics), semantic understanding (content intent), and scenario-adaptive agents for instant confidence signals and cognitive cues. Built with React + TypeScript frontend, FastAPI backend with PostgreSQL, on-demand ML APIs, and autonomous agents for persona-based feedback. Emphasis on low-latency WebSocket streaming, privacy-preserving edge processing, and explainable AI insights.
 
-## 🚀 Features
+## Features
 
 *   **Live Speech Dashboard**: Real-time confidence score, delivery metrics, and persona-adaptive cues.
 *   **Multi-Dimensional Analysis**: Acoustic (stress, pitch, pace, fillers) + semantic (intent, logic gaps) correlation.
@@ -11,7 +11,7 @@ SpeakEZ is a privacy-first, real-time speech intelligence system that aligns *wh
 *   **Micro-Training Sessions**: On-demand 15-30s loops with progress tracking and AI commentary.
 *   **Privacy Controls**: Local processing toggle, anomaly alerts, and secure session export.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **Frontend**: React 18, TypeScript, Vite, Tailwind CSS, Recharts, Socket.io-client
 *   **Backend**: FastAPI, PostgreSQL, Pydantic, SQLAlchemy, Celery (async tasks)
@@ -19,7 +19,7 @@ SpeakEZ is a privacy-first, real-time speech intelligence system that aligns *wh
 *   **Database**: PostgreSQL (sessions, users, metrics)
 *   **Real-time**: WebSockets, Redis (pub/sub)
 
-## 📋 Prerequisites
+## Prerequisites
 
 Ensure you have the following installed:
 *   [Node.js](https://nodejs.org/) (v20+)
@@ -28,7 +28,7 @@ Ensure you have the following installed:
 *   [Redis](https://redis.io/) (for WebSockets/caching)
 *   [Vite](https://vitejs.dev/) (bundler)
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Database Setup
 1. Create PostgreSQL database: `speakez_db`.
@@ -100,7 +100,7 @@ Three terminals required:
 
 Navigate to `http://localhost:5173` for the app.
 
-## 📝 Usage Guide
+## Usage Guide
 
 1. **Register/Login**: Create account → Access dashboard.
 2. **Select Persona**: Choose "Interview" or "Sales Pitch" → Agent loads.
